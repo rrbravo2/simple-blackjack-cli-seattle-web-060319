@@ -31,13 +31,12 @@ end
 def hit?(x)
   prompt_user
   user_input = get_user_input
-
-   if user_input == "h"# code hit? here
+if user_input == "h"# code hit? here
    x += deal_card
  elsif user_input == "s"
    x
  else
-   invalid_command 
+   invalid_command
 
 end
 
